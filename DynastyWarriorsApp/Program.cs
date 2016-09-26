@@ -13,6 +13,7 @@ namespace DynastyWarriorsApp
             UserInterface uI = new UserInterface();
 
             //UI methods running through main.
+            //The goal is for the entire UI to run through this method.
             uI.MainMenuSelection();
 
         }
