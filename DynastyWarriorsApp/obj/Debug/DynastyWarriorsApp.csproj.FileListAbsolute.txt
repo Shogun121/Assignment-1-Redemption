@@ -1,0 +1,9 @@
+O:\Visual Studios Express 2013\Projects\DynastyWarriorsApp\DynastyWarriorsApp\bin\Debug\DynastyWarriorsApp.exe.config
+O:\Visual Studios Express 2013\Projects\DynastyWarriorsApp\DynastyWarriorsApp\bin\Debug\DynastyWarriorsApp.exe
+O:\Visual Studios Express 2013\Projects\DynastyWarriorsApp\DynastyWarriorsApp\bin\Debug\DynastyWarriorsApp.pdb
+O:\Visual Studios Express 2013\Projects\DynastyWarriorsApp\DynastyWarriorsApp\obj\Debug\DynastyWarriorsApp.csprojResolveAssemblyReference.cache
+O:\Visual Studios Express 2013\Projects\DynastyWarriorsApp\DynastyWarriorsApp\obj\Debug\DynastyWarriorsApp.exe
+O:\Visual Studios Express 2013\Projects\DynastyWarriorsApp\DynastyWarriorsApp\obj\Debug\DynastyWarriorsApp.pdb
+C:\Users\Robert\Documents\cis237\DynastyWarriorsApp\DynastyWarriorsApp\bin\Debug\DynastyWarriorsApp.exe.config
+C:\Users\Robert\Documents\cis237\DynastyWarriorsApp\DynastyWarriorsApp\obj\Debug\DynastyWarriorsApp.exe
+C:\Users\Robert\Documents\cis237\DynastyWarriorsApp\DynastyWarriorsApp\obj\Debug\DynastyWarriorsApp.pdb

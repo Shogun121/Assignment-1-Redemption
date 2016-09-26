@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DynastyWarriorsApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {   //class declarations necessary to use external methods.
+            UserInterface uI = new UserInterface();
+
+            //UI methods running through main.
+            uI.MainMenuSelection();
+
+        }
+    }
+}
