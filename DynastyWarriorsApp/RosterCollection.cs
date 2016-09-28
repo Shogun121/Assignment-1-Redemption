@@ -10,15 +10,26 @@ namespace DynastyWarriorsApp
     {
         //class used to store the array of characters and perform related tasks.
 
+        //class instantiations necessary to run methods.
+        CsvProcessor Csv;
+        RosterCollection[] Roster;
+
         //Backing Fields
-        bool fileExists;        //determines if a file exists to read from.
+        bool onceRead;        //determines if a file has been read.
+
+        //portions of an array record.
         string _fullName;
         string _familyName;
         string _faction;
 
-        //array declared to hold the roster.
-        string[] Roster;
+        
 
+
+        //0 parameter constructor
+        public RosterCollection()
+        {
+
+        }
         //3 parameter constructor
         public RosterCollection(string FullName, string FamilyName, string Faction)
         {
@@ -34,7 +45,8 @@ namespace DynastyWarriorsApp
         }
         public void ReadFromFile()
         {   //method used to read the roster from a file.
-            
+            Csv = new CsvProcessor();
+            Csv.ReadCSVFile("debug",Roster);
 
         }
     }

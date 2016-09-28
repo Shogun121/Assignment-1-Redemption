@@ -56,9 +56,18 @@ namespace DynastyWarriorsApp
                 //return false to let the program know that the file read failed.
                 return false;
             }
-            
+            finally
+            {   //executes whether the 'try' or 'catch' block executes.
 
-            
+                //Check to see if a file was opened.
+                if(streamReader!=null)
+                {
+                    //Close the file to protect data integrity.
+                    streamReader.Close();
+                }
+
+            }
+                       
         }
         public void ReadLine(string inputLine,RosterCollection[] rosterArray,int index)
         {   //method to split the readline into segments.

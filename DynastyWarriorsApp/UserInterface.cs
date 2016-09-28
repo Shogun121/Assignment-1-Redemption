@@ -12,6 +12,9 @@ namespace DynastyWarriorsApp
 
     class UserInterface
     {
+        //class instantiations
+        RosterCollection rosterColl= new RosterCollection();
+
         //backing fields
         bool firstTimeMain = true;  //variable used to  prevent the entire method from printintg
                                     //on cotinual calls.
@@ -122,7 +125,7 @@ namespace DynastyWarriorsApp
                         break;
                 case "3": //Write to File work.
                         break;
-                case "4": //Read from a file work.
+                case "4": rosterColl.ReadFromFile();
                         break;
                 case "5": SortMenuSelection();
                         break;
