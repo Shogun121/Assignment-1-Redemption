@@ -31,9 +31,16 @@ namespace DynastyWarriorsApp
                 streamReader = new StreamReader(pathToCsv);
 
                 //declare a counter to be used later.
-                int counter;
+                int counter = 0;
 
-
+                //store a line in 'inputLine' while a line can be read.
+                while((inputLine=streamReader.ReadLine())!=null)
+                {
+                    /*Call the method reading one line at a time; passing in the array
+                     * and the counter.
+                     * */
+                    ReadLine(inputLine,rosterArray,counter++);
+                }
 
                 //Let program know that the file was read successfully.
                 return true;
@@ -43,8 +50,8 @@ namespace DynastyWarriorsApp
                 uI = new UserInterface();
 
                 uI.OpenFileProcessFail();
-                //Console.WriteLine(e.ToString());
-                //Console.WriteLine(e.StackTrace);
+                Console.WriteLine(e.ToString());
+                Console.WriteLine(e.StackTrace);
 
                 //return false to let the program know that the file read failed.
                 return false;
@@ -52,6 +59,19 @@ namespace DynastyWarriorsApp
             
 
             
+        }
+        public void ReadLine(string inputLine,RosterCollection[] rosterArray,int index)
+        {   //method to split the readline into segments.
+
+            string[] parts = inputLine.Split(',');
+
+            //variable portions of the array splitting the read line.
+            string fullName = parts[0];
+            string familyName = parts[1];
+            string faction = parts[2];
+
+            //create an instance of the rosterArray to hold the incoming character.
+            rosterArray[index] = new RosterCollection(fullName,familyName,faction);
         }
     }
 }
