@@ -192,6 +192,12 @@ namespace DynastyWarriorsApp
                     break;
             }
         }
+        public void OpenFileProcessFail()
+        {   //method containing UI output for when the file cannot be opened.
+            Console.WriteLine();
+            Console.WriteLine("The file read failed.");
+            
+        }
 
         //properties
     }

@@ -23,7 +23,7 @@ namespace DynastyWarriorsApp
         }
         public void ReadFromFile()
         {   //method used to read the roster from a file.
-
+            
 
         }
     }
