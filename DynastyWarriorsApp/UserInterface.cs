@@ -151,7 +151,7 @@ namespace DynastyWarriorsApp
                     break;
                 case "6": //Print the roster by factions.
                     break;
-                case "7": Console.Clear(); 
+                case "7": Console.Clear();
                     MainMenuSelection();
                     break;
             }
